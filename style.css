@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.hidden {
+    
+    display: none;
+  }
+  
+  #hand-left {
+    transform: translateX(0);
+  }
+  
+  #hand-right {
+    transform: translateX(0);
+  }
+
+#splitimage,.split-hand{
+
+    height: 90px;
+    width: auto;
+    
+
+}
+.split-hand {
+    transition: transform 10s ease-in-out;
+  }
+#heading{
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size:xx-large;
+    margin-top: 20px;
+    position: relative;
+}
+
+main{
+
+    max-width: 700px;
+    max-height:fit-content;
+    margin: 0 auto;
+    display:flex;
+    margin-top: 20px;
+}
+
+main > div {
+
+    width:100%;
+}
+
+
+
+.outputcard{
+
+    background-color: blanchedalmond;
+    border-radius: 8px;
+    padding: 5px 30px;
+    margin-left: 15px;
+    
+
+}
+.inputcard{
+
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px 30px;
+    margin-right: 15px;
+
+}
+
+.tipbutton{
+
+    background-color: white;
+    border: 1px solid black;
+    gap:5px;
+    padding:20px;
+    cursor:pointer;
+    border-radius: 3px;
+    transition:all 0.1s ease;
+}
+
+.tips .tipbutton:hover{
+
+    background:lightblue
+}
+
+.tips .tipbutton:checked{
+
+    background:pink;
+}
+
+
+
+.input-container{
+ 
+    border: 1px solid black;
+    border-radius:5px;
+    padding:4px 6px;
+    display: flex;
+    margin-bottom: 10px;
+    
+
+
+}
+
+#image{
+
+    display: flex;
+    max-width: 50px;
+}
+.tips{
+
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+
+    margin-bottom: 10px;
+}
+.input-container input{
+
+    border: none;
+    outline: none;
+    appearance: none;
+    width:100%;
+    
+    
+}
+.generatebill{
+
+    width:100%;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    gap:5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:10px;
+    cursor:pointer;
+    border-radius: 3px;
+    transition:all 0.1s ease;
+}
+
+.resetbutton{
+
+    width:100%;
+    background-color: lightblue;
+    border: 1px solid black;
+    gap:5px;
+    margin-top: 40px;
+    margin-bottom: 2px;
+    padding:10px;
+    cursor:pointer;
+    border-radius: 3px;
+    transition:all 0.1s ease;
+}
+
+.resetbutton:hover{
+
+    background: white;
+}
+
+.generatebill:hover{
+
+    background: lightblue;
+}
+
+
+
+.finaltext{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 40px;
+}
+
+.output-container{
+
+    font-size: x-large;
+    padding:4px 6px;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+

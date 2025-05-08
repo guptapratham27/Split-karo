@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Karo</title>
+    <link rel="icon" href="items/splitemoji.png" type="image/x-icon">
+    <link rel=stylesheet href="style.css">
+    
+</head>
+<body>
+
+    <div id="heading">
+        <img src="items/splitemoji.png" id="splitimage">
+        <img
+        <img src="items/lefthand.PNG" id="hand-left" class="split-hand hidden" alt="left" />
+        <p>Split Karo </p>
+        <img src="items/righthand.PNG" id="hand-right" class="split-hand hidden" alt="right" />
+    </div>
+    <main>
+        <div class="inputcard">
+            <p>Enter Amount</p>
+            <div class="input-container">
+                <span>₹</span>
+                <input id="bill-amount" type="number" placeholder="Bill Amount">
+            </div>
+            <p>Enter Tip</p>
+            <div class="tips">
+                <button class="tipbutton">5%</button>
+                <button class="tipbutton">10%</button>
+                <button class="tipbutton">20%</button>
+                <button class="tipbutton">40%</button>
+                <button class="tipbutton">50%</button>
+                <button class="tipbutton">65%</button>
+                
+
+            </div>
+            <div class="input-container">
+                
+                <span>₹</span>
+                <input id="tip-amount" type="number" placeholder="Custom Tip">
+            </div>
+
+            
+            <div class="input-container">
+                
+                <img id="image" src="items/facelogo.png">
+                <input id="people-number"type="number" placeholder="Number of people">
+            </div>
+
+            
+                <button id="genid" class="generatebill">Generate Bill</button>
+            
+        </div>
+
+
+        <div class="outputcard">
+           <p>Tip Amount:</p>
+           <div class="output-container">
+
+               <span>₹</span>
+                <b><span id="ftipamount"></span></b>
+            </div>
+
+            <p>Total Amount:</p> 
+
+           <div class="output-container">
+
+              <span>₹</span>
+              <b><span id="amounttext"></span></b>
+           </div>
+
+            <p id="Spp">Split Per Person:</p>
+           <div class="output-container">
+
+              <span>₹</span>
+              <b><span id="splitamount"></span></b>
+            </div>
+
+            <div class="output-container">
+                <div class="finaltext">
+                    <p id="quote-display">"Splitting is Caring"</p>
+                </div>
+            </div>
+
+            <button class="resetbutton">Reset</button>
+
+
+
+
+
+           
+        </div>
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
