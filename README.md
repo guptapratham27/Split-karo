@@ -1,1 +1,3 @@
-This is a simple project for Splitting Bills.<br> You just need to add an amount , mention the number of people and it will be splitting the bill. There is Also an option to leave a Tip.<br> It has a friendly UI and although simple , it is usefull  
+This is a simple project for Splitting Bills.<br> You just need to add an amount , mention the number of people and it will be splitting the bill. There is Also an option to leave a Tip.<br> It has a friendly UI and although simple , it is usefull.
+
+Thanks For Visiting this Project.

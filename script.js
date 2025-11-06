@@ -187,7 +187,6 @@ generatebillbutton.addEventListener("click",()=>{
 
 resetbutton.addEventListener("click",()=>{
 
-
     var tippercent="";
     var finaltipamount="";
     var amountaftertip="";
@@ -199,8 +198,8 @@ resetbutton.addEventListener("click",()=>{
     totalamount.innerText="";
     finaltip.innerText="";
     finalsplit.innerText="";
-    quotedisplay.innerText="Splitting is Caring";
-
+    quotedisplay.innerText="Splitting is Sharing";
+    
 })
 
 
